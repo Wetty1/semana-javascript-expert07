@@ -1,0 +1,31 @@
+
+#hands {
+    /* faz com que elementos possam ser clicaveis */
+    pointer-events: none;
+
+    /* faz ficar em cima dos elementos */
+    position: fixed;
+
+    /* fica à frente dos elementos */
+    z-index: 100000;
+}
+
+#camera-video {
+    /* faz com que elementos possam ser clicaveis */
+    pointer-events: none;
+
+    /* faz ficar em cima dos elementos */
+    position: fixed;
+
+    /* fica à frente dos elementos */
+    z-index: 9999;
+    right: 30px;
+    bottom: 5px;
+    
+}
+
+#camera-video video {
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+}
